@@ -1,0 +1,17 @@
+{
+  "productos":[
+    {
+      "id_producto": 1,
+      "nombre_prod": "leche",
+      "marca" : "colun",
+      "precio_compra": 500,
+      "precio_venta": 1100,
+      "largo" : 10,
+      "ancho" : 6,
+      "proveedor" :"colun" ,
+      "stock": 20,
+      "fecha_elboracion": ""
+    }
+  ]
+
+}
