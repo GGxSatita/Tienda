@@ -7,14 +7,18 @@ import { IonicModule } from '@ionic/angular';
 import { ListaProductosPageRoutingModule } from './lista-productos-routing.module';
 
 import { ListaProductosPage } from './lista-productos.page';
+import { ProductoServiceService } from 'src/app/services/producto-service.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    ListaProductosPageRoutingModule
+    ListaProductosPageRoutingModule,
+    HttpClientModule
   ],
-  declarations: [ListaProductosPage]
+  declarations: [ListaProductosPage],
+  providers : [ProductoServiceService]
 })
 export class ListaProductosPageModule {}

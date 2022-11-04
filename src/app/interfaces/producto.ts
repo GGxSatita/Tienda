@@ -8,7 +8,7 @@ export interface Producto {
   ancho : number;
   proveedor : string;
   stock : number ;
-  fecha_elabolacion : number;
+  fecha_elaboracion : number;
 }
 
 export interface ProductoConId extends Producto{
